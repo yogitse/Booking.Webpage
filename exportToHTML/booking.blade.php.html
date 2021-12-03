@@ -1,0 +1,266 @@
+<html>
+<head>
+<title>booking.blade.php</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #e8bf6a;}
+.s4 { color: #bababa;}
+.s5 { color: #a5c261;}
+.s6 { color: #a9b7c6;}
+.s7 { color: #6897bb;}
+.s8 { color: #cc7832;}
+.s9 { color: #6a8759;}
+.s10 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+booking.blade.php</font>
+</center></td></tr></table>
+<pre><span class="s0">@extends(</span><span class="s2">'layout.master'</span><span class="s0">)</span>
+<span class="s0">@section(</span><span class="s2">'title'</span><span class="s0">,</span><span class="s2">'Booking'</span><span class="s0">)</span>
+<span class="s0">@section(</span><span class="s2">'content'</span><span class="s0">)</span>
+
+
+    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;container&quot;</span><span class="s3">&gt;</span>
+        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;row&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;tab&quot;</span><span class="s3">&gt;</span>
+            <span class="s3">&lt;h1 </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">margin-top</span><span class="s6">: </span><span class="s7">30</span><span class="s5">px</span><span class="s8">; </span><span class="s4">font-family</span><span class="s6">: </span><span class="s9">'Lato Light'</span><span class="s5">&quot;</span><span class="s3">&gt;</span><span class="s6">Account Information</span><span class="s3">&lt;/h1&gt;</span>
+            <span class="s3">&lt;h3 </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">margin-bottom</span><span class="s6">: </span><span class="s7">30</span><span class="s5">px</span><span class="s8">; </span><span class="s4">font-family</span><span class="s6">: </span><span class="s9">'Lato Light'</span><span class="s5">&quot;</span><span class="s3">&gt;</span><span class="s6">Fill up the need information to continue</span><span class="s3">&lt;/h3&gt;</span>
+            <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-12&quot; </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">color</span><span class="s6">: </span><span class="s5">darkcyan&quot;</span><span class="s3">&gt;</span>
+                <span class="s3">&lt;form </span><span class="s4">class</span><span class="s5">=&quot;row g-3&quot; </span><span class="s4">novalidate</span><span class="s3">&gt;</span>
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Surname</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                             <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                             <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Surname&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault02&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">First Name</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault02&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your First Name&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefaultUsername&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Middle Name</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefaultUsername&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Middle Name&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault03&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Birthday</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                             <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                             <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;datepicker&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;mm/dd/yyyy&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-3&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault04&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Age</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">class</span><span class="s5">=&quot;form-select&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault04&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;h5 </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">color</span><span class="s6">:</span><span class="s7">#000</span><span class="s8">;</span><span class="s5">&quot;</span><span class="s3">&gt;&lt;b&gt;</span><span class="s6">Address</span><span class="s3">&lt;/b&gt;&lt;/h5&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault05&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Street Name</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Street&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">City</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your City&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Postal Code</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Postal Code&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;h5 </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">color</span><span class="s6">: </span><span class="s7">#000</span><span class="s5">&quot;</span><span class="s3">&gt;&lt;b&gt;</span><span class="s6">Contacts</span><span class="s3">&lt;/b&gt;&lt;/h5&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Phone Number</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Phone Number&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Mobile Number</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Mobile Number&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Email Address</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Email Address&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;h5 </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">color</span><span class="s6">: </span><span class="s5">black&quot;</span><span class="s3">&gt;&lt;b&gt;</span><span class="s6">In Case Of Emergency Please Contact the Following: </span><span class="s3">&lt;/b&gt;&lt;/h5&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Full Name</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter The Full Name&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Mobile Number</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter the Mobile Number&quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                    <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-md-4&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;label </span><span class="s4">for</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-label&quot;</span><span class="s3">&gt;</span><span class="s6">Relationship</span><span class="s3">&lt;/label&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;input-group&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;input-group-text&quot; </span><span class="s4">id</span><span class="s5">=&quot;inputGroupPrepend2&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                            <span class="s3">&lt;input </span><span class="s4">type</span><span class="s5">=&quot;text&quot; </span><span class="s4">class</span><span class="s5">=&quot;form-control&quot; </span><span class="s4">id</span><span class="s5">=&quot;validationDefault01&quot; </span><span class="s4">placeholder</span><span class="s5">=&quot;Enter Your Relationship &quot; </span><span class="s4">required</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/div&gt;</span>
+
+                <span class="s3">&lt;/form&gt;</span>
+            <span class="s3">&lt;/div&gt;</span>
+        <span class="s3">&lt;/div&gt;</span>
+
+            <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;tab&quot;</span><span class="s3">&gt;</span>
+                <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;container my-5 py-3 px-5&quot;</span><span class="s3">&gt;</span>
+                    <span class="s3">&lt;form </span><span class="s4">class</span><span class="s5">=&quot;row g-3&quot;</span><span class="s3">&gt;</span>
+                        <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;row justify-content-center&quot;</span><span class="s3">&gt;</span>
+                            <span class="s3">&lt;div </span><span class="s4">class</span><span class="s5">=&quot;col-sm-6 shadow&quot;</span><span class="s3">&gt;</span>
+                                <span class="s3">&lt;h1 </span><span class="s4">class</span><span class="s5">=&quot;primary&quot;</span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">font-family</span><span class="s6">: </span><span class="s9">'Lato Light'</span><span class="s8">; </span><span class="s4">color</span><span class="s6">: </span><span class="s5">darkcyan&quot;</span><span class="s3">&gt;</span><span class="s6">BOOKING DETAILS</span><span class="s3">&lt;/h1&gt;</span>
+                                <span class="s3">&lt;p </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">font-family</span><span class="s6">: </span><span class="s9">'Lato Light'</span><span class="s5">&quot;</span><span class="s3">&gt;&lt;b&gt;</span><span class="s6">Fill up the need information to continue</span><span class="s3">&lt;/b&gt;&lt;/p&gt;</span>
+                            <span class="s3">&lt;/div&gt;</span>
+                        <span class="s3">&lt;/div&gt;</span>
+                    <span class="s3">&lt;/form&gt;</span>
+                <span class="s3">&lt;/div&gt;</span>
+            <span class="s3">&lt;/div&gt;</span>
+
+            <span class="s3">&lt;div </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">overflow</span><span class="s6">:</span><span class="s5">auto</span><span class="s8">;</span><span class="s5">&quot;</span><span class="s3">&gt;</span>
+                <span class="s3">&lt;div </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">float</span><span class="s6">:</span><span class="s5">right</span><span class="s8">;</span><span class="s5">&quot;</span><span class="s3">&gt;</span>
+                    <span class="s3">&lt;button </span><span class="s4">type</span><span class="s5">=&quot;button&quot; </span><span class="s4">id</span><span class="s5">=&quot;prevBtn&quot; </span><span class="s4">onclick</span><span class="s5">=&quot;</span><span class="s6">nextPrev(-</span><span class="s7">1</span><span class="s6">)</span><span class="s5">&quot;</span><span class="s3">&gt;</span><span class="s6">Previous</span><span class="s3">&lt;/button&gt;</span>
+                    <span class="s3">&lt;button </span><span class="s4">type</span><span class="s5">=&quot;button&quot; </span><span class="s4">id</span><span class="s5">=&quot;nextBtn&quot; </span><span class="s4">onclick</span><span class="s5">=&quot;</span><span class="s6">nextPrev(</span><span class="s7">1</span><span class="s6">)</span><span class="s5">&quot;</span><span class="s3">&gt;</span><span class="s6">Next</span><span class="s3">&lt;/button&gt;</span>
+                <span class="s3">&lt;/div&gt;</span>
+            <span class="s3">&lt;/div&gt;</span>
+
+            <span class="s3">&lt;div </span><span class="s4">style</span><span class="s5">=&quot;</span><span class="s4">text-align</span><span class="s6">:</span><span class="s5">center</span><span class="s8">;</span><span class="s4">margin-top</span><span class="s6">:</span><span class="s7">40</span><span class="s5">px</span><span class="s8">;</span><span class="s5">&quot;</span><span class="s3">&gt;</span>
+                <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;step&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;step&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+                <span class="s3">&lt;span </span><span class="s4">class</span><span class="s5">=&quot;step&quot;</span><span class="s3">&gt;&lt;/span&gt;</span>
+            <span class="s3">&lt;/div&gt;</span>
+    <span class="s3">&lt;/div&gt;</span>
+<span class="s3">&lt;/div&gt;</span>
+
+
+
+    <span class="s3">&lt;script&gt;</span>
+        <span class="s8">var </span><span class="s6">currentTab = </span><span class="s7">0</span><span class="s8">; </span><span class="s10">// Current tab is set to be the first tab (0)</span>
+        <span class="s6">showTab(currentTab)</span><span class="s8">; </span><span class="s10">// Display the current tab</span>
+
+        <span class="s8">function </span><span class="s6">showTab(n) {</span>
+            <span class="s10">// This function will display the specified tab of the form...</span>
+            <span class="s8">var </span><span class="s6">x = document.getElementsByClassName(</span><span class="s9">&quot;tab&quot;</span><span class="s6">)</span><span class="s8">;</span>
+            <span class="s6">x[n].style.display = </span><span class="s9">&quot;block&quot;</span><span class="s8">;</span>
+            <span class="s10">//... and fix the Previous/Next buttons:</span>
+            <span class="s8">if </span><span class="s6">(n == </span><span class="s7">0</span><span class="s6">) {</span>
+                <span class="s6">document.getElementById(</span><span class="s9">&quot;prevBtn&quot;</span><span class="s6">).style.display = </span><span class="s9">&quot;none&quot;</span><span class="s8">;</span>
+            <span class="s6">} </span><span class="s8">else </span><span class="s6">{</span>
+                <span class="s6">document.getElementById(</span><span class="s9">&quot;prevBtn&quot;</span><span class="s6">).style.display = </span><span class="s9">&quot;inline&quot;</span><span class="s8">;</span>
+            <span class="s6">}</span>
+            <span class="s8">if </span><span class="s6">(n == (x.length - </span><span class="s7">1</span><span class="s6">)) {</span>
+                <span class="s6">document.getElementById(</span><span class="s9">&quot;nextBtn&quot;</span><span class="s6">).innerHTML = </span><span class="s9">&quot;Submit&quot;</span><span class="s8">;</span>
+            <span class="s6">} </span><span class="s8">else </span><span class="s6">{</span>
+                <span class="s6">document.getElementById(</span><span class="s9">&quot;nextBtn&quot;</span><span class="s6">).innerHTML = </span><span class="s9">&quot;Next&quot;</span><span class="s8">;</span>
+            <span class="s6">}</span>
+            <span class="s10">//... and run a function that will display the correct step indicator:</span>
+            <span class="s6">fixStepIndicator(n)</span>
+        <span class="s6">}</span>
+
+        <span class="s8">function </span><span class="s6">nextPrev(n) {</span>
+            <span class="s10">// This function will figure out which tab to display</span>
+            <span class="s8">var </span><span class="s6">x = document.getElementsByClassName(</span><span class="s9">&quot;tab&quot;</span><span class="s6">)</span><span class="s8">;</span>
+            <span class="s10">// Exit the function if any field in the current tab is invalid:</span>
+            <span class="s8">if </span><span class="s6">(n == </span><span class="s7">1 </span><span class="s6">&amp;&amp; !validateForm()) </span><span class="s8">return false;</span>
+            <span class="s10">// Hide the current tab:</span>
+            <span class="s6">x[currentTab].style.display = </span><span class="s9">&quot;none&quot;</span><span class="s8">;</span>
+            <span class="s10">// Increase or decrease the current tab by 1:</span>
+            <span class="s6">currentTab = currentTab + n</span><span class="s8">;</span>
+            <span class="s10">// if you have reached the end of the form...</span>
+            <span class="s8">if </span><span class="s6">(currentTab &gt;= x.length) {</span>
+                <span class="s10">// ... the form gets submitted:</span>
+                <span class="s6">document.getElementById(</span><span class="s9">&quot;regForm&quot;</span><span class="s6">).submit()</span><span class="s8">;</span>
+                <span class="s8">return false;</span>
+            <span class="s6">}</span>
+            <span class="s10">// Otherwise, display the correct tab:</span>
+            <span class="s6">showTab(currentTab)</span><span class="s8">;</span>
+        <span class="s6">}</span>
+
+        <span class="s8">function </span><span class="s6">validateForm() {</span>
+            <span class="s10">// This function deals with validation of the form fields</span>
+            <span class="s8">var </span><span class="s6">x</span><span class="s8">, </span><span class="s6">y</span><span class="s8">, </span><span class="s6">i</span><span class="s8">, </span><span class="s6">valid = </span><span class="s8">true;</span>
+            <span class="s6">x = document.getElementsByClassName(</span><span class="s9">&quot;tab&quot;</span><span class="s6">)</span><span class="s8">;</span>
+            <span class="s6">y = x[currentTab].getElementsByTagName(</span><span class="s9">&quot;input&quot;</span><span class="s6">)</span><span class="s8">;</span>
+            <span class="s10">// A loop that checks every input field in the current tab:</span>
+            <span class="s8">for </span><span class="s6">(i = </span><span class="s7">0</span><span class="s8">; </span><span class="s6">i &lt; y.length</span><span class="s8">; </span><span class="s6">i++) {</span>
+                <span class="s10">// If a field is empty...</span>
+                <span class="s8">if </span><span class="s6">(y[i].value == </span><span class="s9">&quot;&quot;</span><span class="s6">) {</span>
+                    <span class="s10">// add an &quot;invalid&quot; class to the field:</span>
+                    <span class="s6">y[i].className += </span><span class="s9">&quot; invalid&quot;</span><span class="s8">;</span>
+                    <span class="s10">// and set the current valid status to false</span>
+                    <span class="s6">valid = </span><span class="s8">false;</span>
+                <span class="s6">}</span>
+            <span class="s6">}</span>
+            <span class="s10">// If the valid status is true, mark the step as finished and valid:</span>
+            <span class="s8">if </span><span class="s6">(valid) {</span>
+                <span class="s6">document.getElementsByClassName(</span><span class="s9">&quot;step&quot;</span><span class="s6">)[currentTab].className += </span><span class="s9">&quot; finish&quot;</span><span class="s8">;</span>
+            <span class="s6">}</span>
+            <span class="s8">return </span><span class="s6">valid</span><span class="s8">; </span><span class="s10">// return the valid status</span>
+        <span class="s6">}</span>
+
+        <span class="s8">function </span><span class="s6">fixStepIndicator(n) {</span>
+            <span class="s10">// This function removes the &quot;active&quot; class of all steps...</span>
+            <span class="s8">var </span><span class="s6">i</span><span class="s8">, </span><span class="s6">x = document.getElementsByClassName(</span><span class="s9">&quot;step&quot;</span><span class="s6">)</span><span class="s8">;</span>
+            <span class="s8">for </span><span class="s6">(i = </span><span class="s7">0</span><span class="s8">; </span><span class="s6">i &lt; x.length</span><span class="s8">; </span><span class="s6">i++) {</span>
+                <span class="s6">x[i].className = x[i].className.replace(</span><span class="s9">&quot; active&quot;</span><span class="s8">, </span><span class="s9">&quot;&quot;</span><span class="s6">)</span><span class="s8">;</span>
+            <span class="s6">}</span>
+            <span class="s10">//... and adds the &quot;active&quot; class on the current step:</span>
+            <span class="s6">x[n].className += </span><span class="s9">&quot; active&quot;</span><span class="s8">;</span>
+        <span class="s6">}</span>
+    <span class="s3">&lt;/script&gt;</span>
+<span class="s0">@endsection</span>
+</pre>
+</body>
+</html>
